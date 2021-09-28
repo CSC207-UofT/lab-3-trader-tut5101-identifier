@@ -12,7 +12,7 @@ public class Car implements Drivable, Domesticatable, Tradable{
 
     @Override
     public void upgradeSpeed() {
-        this.maxSpeed += 5;
+        this.maxSpeed += 10;
     }
 
     @Override
